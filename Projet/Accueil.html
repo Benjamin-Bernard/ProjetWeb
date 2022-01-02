@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="VisitACity.js"></script>
+        <title>Accueil</title>
+    </head>
+<body>
+   
+      
+    
+    <header id="header"> <!--L'entête-->
+        <label id="IDburger">☰</label>
+        <img class="logo" src="image/logo2.PNG" alt="Logo" width="425">
+        
+        <nav> <!--La barre de menu-->
+            <ul >
+              <li class="menu burger"><a  href="Accueil.html">Accueil</a></li>
+              <li class="menu burger" id="ville"><a href="Villes.html">Villes</a>
+                 <ul class="sousMenu ">
+                    <li><a href="Paris.html">Paris</a></li>
+                    <li><a href="LeCaire.html">Le Caire</a></li>
+                    <li><a href="Londres.html">Londres</a></li>
+                 </ul>
+              </li>
+              <li class="menu burger"><a href="Inscription.html">Inscription</a></li>
+              <li class="menu burger"><a href="A_propos.html">À propos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Texte de bienvenue et image-->
+    <div class="main-content">
+        <h1>Bienvenue sur Visit A City</h1>
+        <h3>Visiter les plus beaux monuments historiques de Paris, Le Caire et Londres</h3>
+        <p>Accompagnez de nos guides, découvrez des recoins inexplorés à des tarifs exceptionnels. </p>
+        <p>Réservez dès maintenant votre visite sur notre site <a href="Inscription.html">Inscription</a></p><br/><br/>
+        <div class="image">
+            <img src="image\imageVilles2.png" alt="Affiche l'image de bienvenue" width="100%">
+        </div>
+    </div>
+        
+    <!--Card des 3 villes à visiter-->
+    <div class="Visit">
+        <a href="#accueil-card" class="btn"><i class="down"></i></a>
+        <p>Découvrez ces 3 capitales mythiques, pleines d'histoires et de magies.<br><br> Paris avec sa Tour Eiffel, Le Caire avec ses pyramides et Londres avec Big Ben... </p>
+        <div class="Visit-images">
+            <img id="icôneLouvre" src="image/icôneLouvre.png" alt="icôneLouvre">
+            <img id="icôneRoue" src="image/icôneRoue.png" alt="icôneRoue">
+        </div>
+    
+    </div>
+
+    <div id="accueil-card" class="accueil-content">
+        <div class="card test">
+            <img src="image\paris_img2.jpg" alt="Image de Paris">
+            <div class="content-card">
+                <h4><b>Paris</b></h4>
+                <p>Qui n'a jamais rêvé de visiter Paris ? Si vous êtes prêt à visiter la ville de l'amour pour la première fois, vous pourriez vous sentir un peu perdu et avoir des milliers de questions qui vous traversent l'esprit. Par où commencer? Quels sont les principaux monuments à visiter? Nous allons tenter de vous guider pour avoir une visite inoubliable.<br><a href="Paris.html" >Lire plus...</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image\lecaire_img2.jpg" alt="image du Caire">
+            <div class="content-card">
+                <h4><b>Le Caire</b></h4>
+                <p>Le Caire est la capitale de l'Égypte et la ville la plus importante du pays. Avec une population de presque 20 millions d'habitants, Le Caire est aussi la ville la plus peuplée d'Afrique. Les monuments les plus célèbres du Caire sont les célèbres pyramides de Gizeh et le Sphinx, mais il existe énormément d'autres visites d'intérêt, telles que le musée égyptien du Caire, les pyramides de Saqqarah et Memphis et la citadelle.<br> <a href="LeCaire.html" >Lire plus...</a> </p>
+            </div>
+        </div>
+        <div class="card test">
+            <img src="image\londres_img2.jpg" width="300px" height="300px">
+            <div class="content-card">
+                <h4><b>Londres</b></h4>
+                <p>Londres est la capitale politique et économique du Royaume-Uni. Il s'agit de l'une des villes les plus visitées au monde pour son caractère cosmopolite et son ambiance si particulière. Il est difficile de décrire la ville par écrit sans risquer d'en dénaturer le charme puisqu'il faut la visiter pour comprendre ce qui fait sa particularité.<br> <a href="Londres.html" >Lire plus...</a> </p>
+            </div>
+        </div>
+    </div>
+
+
+    <button href="#header" id="btn-backTop" class="back-to-top"><i class="top"></i></button>
+
+    <!--Le pied de page commun à toutes les pages web-->
+    <footer>
+        <p>Amr Eletreby - Benjamin Bernard<br></p>
+        <div class="footer"><p><a href="A_propos.html">À propos</a></p>
+        <img src="image/EFREI.png" alt="logoEFREI"></div>
+    </footer>
+
+
+</body>
+</html>

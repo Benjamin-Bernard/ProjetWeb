@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="VisitACity.js"></script>
+        <title>Paris</title>
+    </head>    
+<body>
+   
+      
+    
+    <header> <!--L'entête-->
+        <label id="IDburger">☰</label>
+        <img class="logo" src="image/logo2.PNG" alt="Logo" width="425">
+        
+        <nav> <!--La barre de menu-->
+            <ul >
+              <li class="menu burger"><a  href="Accueil.html">Accueil</a></li>
+              <li class="menu burger" id="ville"><a href="Villes.html">Villes</a>
+                 <ul class="sousMenu ">
+                    <li><a href="Paris.html">Paris</a></li>
+                    <li><a href="LeCaire.html">Le Caire</a></li>
+                    <li><a href="Londres.html">Londres</a></li>
+                 </ul>
+              </li>
+              <li class="menu burger"><a href="Inscription.html">Inscription</a></li>
+              <li class="menu burger"><a href="A_propos.html">À propos</a></li>
+            </ul>
+        </nav>
+          
+    </header>
+
+        <div class="london-body">
+            <h1>Londres : La ville multicuturelle ...</h1>
+            <p>La capitale en pleine effervescence de l'Angleterre est semblable à nulle autre dans le monde. <br>Londres possède une personnalité unique, avec ses monuments emblématiques, des siècles d'histoire, et une scène artistique toujours innovante. </p><br><br><br>
+            <img src="image/londres_img2.jpg" alt="image de londres"><br>        
+            <h2>Pourquoi visiter Londres ?</h2>
+            <p> Découvrez des sites classés au patrimoine mondiale de l'UNESCO, détendez-vous dans les parcs royaux luxuriants.<br>
+            Arpentez ses rues, ses quartiers, émerveillez-vous devant Big ben et le Tower-Bridge. Admirez les oeuvres d'art du National Gallery...</p>
+
+            <p><br><strong>Plus d'information, veuillez vous adresser à la page d'<a href="Inscription.html">inscription</a>.</strong></p>
+
+        </div>
+
+        <br><h2 style="text-align:center">Attractions touristiques</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="image\bigben_s.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="image\londoneye_s.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="image\abbey_s.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="image\towerbr_s.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="image\hydepark_s.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="image\wwl_s.jpg" style="width:100%">
+            </div>
+                
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="image\bigben_s.jpg" style="width:100%" onclick="currentSlide(1)" alt="Big Ben">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image\londoneye_s.jpg" style="width:100%" onclick="currentSlide(2)" alt="London Eye">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image\abbey_s.jpg" style="width:100%" onclick="currentSlide(3)" alt="Abbaye de Westminster">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image\towerbr_s.jpg" style="width:100%" onclick="currentSlide(4)" alt="Tower Bridge">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="image\hydepark_s.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hyde Park">
+                </div>    
+                <div class="column">
+                    <img class="demo cursor" src="image\wwl_s.jpg" style="width:100%" onclick="currentSlide(6)" alt="Cathédrale Saint Paul">
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        
+    <button href="#header" id="btn-backTop" class="back-to-top"><i class="top"></i></button>
+
+    <!--Le pied de page commun à toutes les pages web-->
+    <footer>
+        <p>Amr Eletreby - Benjamin Bernard<br></p>
+        <div class="footer"><p><a href="A_propos.html">À propos</a></p>
+        <img src="image/EFREI.png" alt="logoEFREI"></div>
+    </footer>
+    
+
+</body>
+</html>

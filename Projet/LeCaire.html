@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="VisitACity.js"></script>
+        <title>Le Caire</title>
+    </head>    
+<body>
+   
+      
+    
+    <header> <!--L'entête-->
+        
+        <label id="IDburger">☰</label>
+        <img class="logo" src="image/logo2.PNG" alt="Logo" width="425">
+        
+        <nav> <!--La barre de menu-->
+            <ul >
+              <li class="menu burger"><a  href="Accueil.html">Accueil</a></li>
+              <li class="menu burger" id="ville"><a href="Villes.html">Villes</a>
+                 <ul class="sousMenu ">
+                    <li><a href="Paris.html">Paris</a></li>
+                    <li><a href="LeCaire.html">Le Caire</a></li>
+                    <li><a href="Londres.html">Londres</a></li>
+                 </ul>
+              </li>
+              <li class="menu burger"><a href="Inscription.html">Inscription</a></li>
+              <li class="menu burger"><a href="A_propos.html">À propos</a></li>
+            </ul>
+        </nav>
+          
+    </header>
+
+    <div class="cairo-body">
+        <h1>Le Caire : Le berceau des civilisations ...</h1>
+        <p>Terre de contrastes, composée de sublimes paysages désertiques, avec une splendeur inégalable grâce au fleuve du Nil, l'Égypte attire des millions de visiteurs. Ses temples majestueux et ses merveilles de l'Antiquité, parfaitement préservées, vous feront voyager dans le temps.</p><br><br>
+        <img src="image\pyramides20.jpg" alt="image des pyramides"><br>   
+        <h2>Pourquoi visiter Le Caire ?</h2>
+        <p>Considérée comme le berceau des civilisations, l’Égypte est un pays unique, une destination surprenante, pleine de magie et d’histoire, qui offre à ses visiteurs une expérience inoubliable. L’Égypte, c'est un mélange passionnant d’aventure, de culture et de mystère. Vous pourrez vous perdre dans ses temples colossaux et dans la vie animée du Caire. Parmi les innombrables attractions du pays, l'Égypte offre la possibilité de profiter de la tranquillité d'une croisière sur le Nil et contempler les majestueuses pyramides avant de déguster d'excellentes spécialités culinaires égyptiennes. Vous pourrez même faire de la plongée dans l'immensité de la mer Rouge. Comme le disait l'historien grec Hérodote il y a plus de deux mille ans : "qui n'a pas vu l'Égypte n'a pas vu le monde".</p>
+
+        <p><br><strong>Plus d'information, veuillez vous adresser à la page d'<a href="Inscription.html">inscription</a>.</strong></p>
+
+    </div>
+
+
+    <br><h2 style="text-align:center">Attractions touristiques</h2>
+
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="image\pyramides_s.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="image\saqqara_s.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="image\sphinx_s.jpg" style="width:100%">
+        </div>
+            
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="image\khank_s.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="image\moha_s.jpg" style="width:100%">
+        </div>
+            
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="image\eglise_s.jpg" style="width:100%">
+        </div>
+            
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="image\pyramides_s.jpg" style="width:100%" onclick="currentSlide(1)" alt="Pyramides de Gizeh">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image\saqqara_s.jpg" style="width:100%" onclick="currentSlide(2)" alt="Saqqarah">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image\sphinx_s.jpg" style="width:100%" onclick="currentSlide(3)" alt="Sphinx de Gizeh">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image\khank_s.jpg" style="width:100%" onclick="currentSlide(4)" alt="Khan El Khalili">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="image\moha_s.jpg" style="width:100%" onclick="currentSlide(5)" alt="La mosquée de Mohammed Ali">
+            </div>    
+            <div class="column">
+                <img class="demo cursor" src="image\eglise_s.jpg" style="width:100%" onclick="currentSlide(6)" alt="L’église suspendue">
+            </div>
+        </div>
+    </div>
+
+        
+    <button href="#header" id="btn-backTop" class="back-to-top"><i class="top"></i></button>
+
+    <footer>
+        <p>Amr Eletreby - Benjamin Bernard<br></p>
+        <div class="footer"><p><a href="A_propos.html">À propos</a></p>
+        <img src="image/EFREI.png" alt="logoEFREI"></div>
+    </footer>
+
+</body>
+</html>
