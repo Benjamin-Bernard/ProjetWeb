@@ -26,7 +26,7 @@ function backToTop(){
 }
 
 
-
+/*Fonction permettant d'afficher le burger*/
 function burger(){
     var x = document.querySelectorAll(".burger");
     for (let i = 0; i < x.length; i++) {

@@ -764,6 +764,21 @@ footer img{
         flex-direction: column;
         margin-left: 20%;
     }
+
+    .london-body img {
+        width: 200px;
+        height: 200px ;
+    
+    }
+    .paris-body img{
+        width: 200px;
+        height:200px;
+    }
+
+    .cairo-body img{
+        width: 200px;
+        height:200px;
+    }
 }
 
 
